@@ -11,8 +11,8 @@ const CONTRACT_ADDRESS = "YOUR_SMART_CONTRACT_ADDRESS";
 // console.log(PINATA_API_KEY)
 // console.log(PINATA_SECRET_API_KEY)
 
-const PINATA_API_KEY = "0c3c10a558fcc828f85c";
-const PINATA_SECRET_API_KEY = "b766a9e2727909ad94d3bc8ff55848527cdee9ea8f3dc3156d76439b6ab761ee";
+const PINATA_API_KEY = "";
+const PINATA_SECRET_API_KEY = "";
 function PatientsUploadRecord() {
   const [web3, setWeb3] = useState(null);
   const [contract, setContract] = useState(null);
